@@ -18,13 +18,14 @@
     "react-redux": "^9.2.0",
     "react-router-dom": "^7.1.1",
     "react-scripts": "5.0.1",
-    "web-vitals": "^4.2.4",
-    "homepage": "https://MUDITJAINN.vercel.app"
+    "web-vitals": "^4.2.4"
   },
   "scripts": {
     "build": "react-scripts build",
     "start": "react-scripts start",
-    "deploy": "vercel --prod"
+    "deploy": "vercel --prod",
+    "test": "react-scripts test",
+  "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
